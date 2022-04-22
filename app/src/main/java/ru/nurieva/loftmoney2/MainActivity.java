@@ -3,6 +3,7 @@ package ru.nurieva.loftmoney2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // TODO: - Here we will work with recyclerview
+
+        ImageView trashImage = findViewById(R.id.trashImageView);
     }
 }
 
