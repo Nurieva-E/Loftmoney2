@@ -7,10 +7,14 @@
     tools:context=".MainActivity">
 
 
- <!-- ViewGroup xtv меньше может делать, тем производительней.
- Примеры От низких до высоких-->
-    <!-- для задания координат? элементы могут перекрываться-->
- <FrameLayout
+
+
+
+
+    <!-- ViewGroup чем меньше может делать, тем производительней.
+    Примеры От низких до высоких-->
+    <!-- для задания координат. элементы могут перекрываться-->
+ <!--<FrameLayout
      android:layout_width="match_parent"
      android:layout_height="match_parent" >
 
@@ -32,10 +36,10 @@
 
  </FrameLayout>
 
-    <!-- для задания координат в 2х измерениях.
+     для задания координат в 2х измерениях.
     Элементы не перекрываются.
     Расположение гризонтально либо вкертикально в ряд-->
- <LinearLayout
+ <!-- <LinearLayout
      android:layout_width="match_parent"
      android:layout_height="match_parent"
      android:orientation="vertical">
@@ -72,7 +76,7 @@
          android:textSize="72dp"/>
  </LinearLayout>
 
- <!-- появился недавно
+ появился недавно
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
